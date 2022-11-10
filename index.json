@@ -1,3 +1,7 @@
 {
-  "$schema": "http://json.schemastore.org/prettierrc"
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 86
 }
