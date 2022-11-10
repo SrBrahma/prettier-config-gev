@@ -17,4 +17,4 @@ module.exports = {
 };
 ```
 
-It's also possible to add `"prettier": "prettier-config-gev"` to the `package.json` but that doesn't allow customization.
+It's also possible to add `"prettier": "prettier-config-gev"` to the `package.json` but that doesn't allow customization. But there aren't many to do in prettier.
