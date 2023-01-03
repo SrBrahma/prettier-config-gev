@@ -1,14 +1,14 @@
 # Installation
 
 ```shell
+pnpm i -D prettier-config-gev prettier
+# or
 npm i -D prettier-config-gev prettier
 # or
 yarn add -D prettier-config-gev prettier
-# or
-pnpm i -D prettier-config-gev prettier
 ```
 
-Create a `.prettierrc.js` with the following:
+Add `"prettier": "prettier-config-gev"` to the root of your `package.json` if you don't intend to customize the Prettier. There isn't much to customize. Else, create a `.prettierrc.js` with the following:
 
 ```js
 module.exports = {
@@ -16,5 +16,3 @@ module.exports = {
   // Other rules
 };
 ```
-
-It's also possible to add `"prettier": "prettier-config-gev"` to the `package.json` but that doesn't allow customization. But there aren't many to do in prettier.
