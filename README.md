@@ -1,3 +1,5 @@
+# NEW: You should now use Biome! Also, check my other package to use with Biome & ESLint: https://github.com/SrBrahma/eslint-config-biome
+
 # Installation
 
 ```shell
